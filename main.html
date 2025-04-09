@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Project Porfolio-site</title>
+</head>
+
+<body>
+  <div class="personal-portfolio">
+    <div class="div">
+
+      <div class="first-part-greeting">
+
+        <div class="rectangle"></div>
+        <div class="top-menu">
+          <div class="div-text-greeting-upper-part">
+            <div class="text-in-greeting-upper-part">Home</div>
+          </div>
+          <div class="div-text-greeting-upper-part">
+            <div class="text-in-greeting-upper-part">Recent work</div>
+          </div>
+          <div class="div-text-greeting-upper-part">
+            <div class="text-in-greeting-upper-part">Get In Touch</div>
+          </div>
+        </div>
+
+
+        <div class="text-first-part">
+          <div class="text-wrapper-first-part-1">Artem Smirnov</div>
+          <p class="text-wrapper-first-part">
+            Hi, I am a student of MIPT, a Java developer, and this site is about me.
+          </p>
+          <a class="call-to-action-button-1">
+            <div data-href="#" class="text-wrapper-first-part-2">Let’s get started</div>
+          </a>
+        </div>
+
+        <div class="worked-with">
+          <div class="text-wrapper-first-part-2">Worked with</div>
+        </div>
+
+        <img class="my-photo" src="images/my-photo.jpg" alt="Мое фото" />
+
+        <div class="worked-with-logos">
+          <div class="logo">
+            <img class="clickup-logo" src="images/logo1.svg" alt="Лого спринга" />
+          </div>
+
+          <div class="logo">
+            <img class="clickup-logo" src="images/postgresql-icon.svg" alt="Лого постгреса" />
+          </div>
+
+          <div class="logo">
+            <img class="clickup-logo" src="images/icons8-github.svg" alt="Лого гита" />
+          </div>
+
+          <div class="logo">
+            <img class="clickup-logo" src="images/icons8-apache-kafka.svg" alt="Лого кафки" />
+          </div>
+
+          <div class="logo">
+            <img class="clickup-logo" src="images/icons8-figma.svg" alt="Лого фигмы" />
+          </div>
+        </div>
+      </div>
+
+      <div class="second-part-recent-work">
+
+        <div class="your-name-here">
+          <div class="text-wrapper-recent-work">Recent Work</div>
+        </div>
+
+        <div class="solving-user-wrapper">
+          <p class="p">
+            Solving user &amp; business problems since last 1 year.
+        </div>
+
+        <div class="recent-work1">
+          <img class="work-photo" src="images/mts_eco_logo.png" alt="Лого МТС" />
+
+          <div class="work-name-here">
+            <div class="text-wrapper-work-here">Аналог Jira</div>
+          </div>
+
+          <div class="work-text">
+            <p class="text-wrapper-work-text">
+              Разработка сервиса таск менеджмента.
+            </p>
+          </div>
+
+          <a class="call-to-action-button-2">
+            <div data-href="#" class="text-wrapper-button-know-more">Know more</div>
+          </a>
+        </div>
+
+        <div class="recent-work2">
+          <img class="work-photo" src="images/mts_eco_logo.png" alt="Лого МТС" />
+
+          <div class="work-name-here">
+            <div class="text-wrapper-work-here">Сервис планирования <br> совместных путешествий</div>
+          </div>
+
+          <div class="work-text">
+            <p class="text-wrapper-work-text">
+              Разработка сервиса по планированию совместных путешествий совместно с MTS Travel.
+            </p>
+          </div>
+
+          <a class="call-to-action-button-2">
+            <div data-href="#" class="text-wrapper-button-know-more">Know more</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="get-in-touch">
+
+        <div class="heading-get-in-touch">
+          <div class="text-wrapper-get-in-touch-1">Get In Touch</div>
+        </div>
+
+        <div class="subtext-get-in-touch">
+          <p class="p">
+            Если у вас есть вопросы или вы хотите обсудить потенциальное сотрудничество, не стесняйтесь написать мне!
+          </p>
+        </div>
+
+        <form id="contact-form">
+          <div class="email">
+            <div class="contact-info">Email</div>
+            <input type="email" id="email" class="placeholder" placeholder="Enter email..." />
+            <div class="error" id="emailError" style="display: none;">
+              <div class="notification">
+                Пожалуйста, введите корректный адрес электронной почты.
+              </div>
+            </div>
+          </div>
+
+          <div class="mobile">
+            <div class="contact-info">Mobile</div>
+            <input type="text" id="mobile" class="placeholder" placeholder="Enter mobile..." />
+            <div class="error" id="mobileError" style="display: none;">
+              <div class="notification">
+                Введите корректный номер телефона.
+              </div>
+            </div>
+          </div>
+
+          <div class="message">
+            <div class="contact-info">Message</div>
+            <input type="text" id="message" class="placeholder-2" placeholder="Enter your message..." />
+            <div class="error" id="messageError" style="display: none;">
+              <div class="notification">
+                Сообщение должно содержать как минимум 10 символов.
+              </div>
+            </div>
+          </div>
+
+          <button class="contact-button">Submit</button>
+        </form>
+
+
+      </div>
+
+      <div class="made-with-love">
+        <div class="made-with-love-text">
+          <div class="contact-info">Made with ❤️</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      const email = document.getElementById('email').value.trim();
+      const mobile = document.getElementById('mobile').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      let valid = true;
+
+      const emailPattern = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      if (!emailPattern.test(email)) {
+        document.getElementById('emailError').style.display = 'block';
+        valid = false;
+      } else {
+        document.getElementById('emailError').style.display = 'none';
+      }
+
+      const mobilePattern = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-s./0-9]*$/;
+      if (!mobilePattern.test(mobile)) {
+        document.getElementById('mobileError').style.display = 'block';
+        valid = false;
+      } else {
+        document.getElementById('mobileError').style.display = 'none';
+      }
+
+      if (message.length < 10) {
+        document.getElementById('messageError').style.display = 'block';
+        valid = false;
+      } else {
+        document.getElementById('messageError').style.display = 'none';
+      }
+
+      if (valid) {
+        alert('Форма успешно отправлена!');
+      }
+    });
+  </script>
+</body>
+
+</html>

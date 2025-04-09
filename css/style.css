@@ -1,0 +1,544 @@
+.personal-portfolio {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.div {
+  background-color: #ffffff;
+  width: 1280px;
+  height: 2320x;
+  position: relative;
+}
+
+/* Начало первой части со знакомством */
+
+.first-part-greeting {
+  position: absolute;
+  width: 1280px;
+  height: 700px;
+  top: 0;
+  left: 0;
+  background-color: #080808;
+}
+
+.top-menu {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 70px;
+  position: absolute;
+  top: 24px;
+  left: 180px;
+}
+
+.rectangle {
+  width: 1110px;
+  height: 70px;
+  left: 85px;
+  background-color: #5a5858;
+  border-radius: 0px 0px 8px 8px;
+  position: absolute;
+  top: 0;
+}
+
+.div-text-greeting-upper-part {
+  gap: 10px;
+  position: relative;
+}
+
+.text-in-greeting-upper-part {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: normal;
+}
+
+.text-first-part {
+  display: flex;
+  flex-direction: column;
+  width: 538px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+  position: absolute;
+  top: 201px;
+  left: 180px;
+}
+
+.your-name-here {
+  position: absolute;
+  left: 450px;
+}
+
+.intro-text-first-part {
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.text-wrapper-first-part {
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.worked-with {
+  position: absolute;
+  top: 557px;
+  left: 180px;
+}
+
+.call-to-action-button-1 {
+  padding: 21px 64px;
+  position: relative;
+  background-color: #3e8e00;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #61b91b;
+  box-shadow: 0px 8px 30px #3f8e0080;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.call-to-action-button-1:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+  box-shadow: 0px 12px 40px #3f8e0090;
+}
+
+.call-to-action-button-1:active {
+  transform: scale(0.95);
+  box-shadow: 0px 6px 20px #3f8e0070;
+}
+
+.text-wrapper-first-part-1 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Raleway-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.text-wrapper-first-part-2 {
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.my-photo {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 150px;
+  left: 750px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.worked-with-logos {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 920px;
+  height: 60px;
+  top: 595px;
+  left: 180px;
+  gap: 30px;
+}
+
+.logo {
+  position: relative;
+  width: 160px;
+  height: 60px;
+  top: 0;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #1b1b1b;
+}
+
+.clickup-logo {
+  position: absolute;
+  width: 82px;
+  height: 100%;
+  left: 38px;
+}
+
+/* Конец первой части со знакомством */
+
+/* Начало второй части с recent works */
+
+.second-part-recent-work {
+  position: absolute;
+  width: 1110px;
+  height: 676px;
+  top: 800px;
+  left: 85px;
+}
+
+.recent-work1 {
+  position: absolute;
+  width: 445px;
+  height: 494px;
+  top: 182px;
+  left: 95px;
+}
+
+.recent-work2 {
+  position: absolute;
+  width: 445px;
+  height: 494px;
+  top: 182px;
+  left: 700px;
+}
+
+.work-photo {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+}
+
+.call-to-action-button-2 {
+  padding: 10px 24px;
+  position: absolute;
+  top: 456px;
+  left: 0;
+  background-color: #3e8e00;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #61b91b;
+  box-shadow: 0px 8px 30px #3f8e004c;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.call-to-action-button-2:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+  box-shadow: 0px 12px 40px #3f8e0090;
+}
+
+.call-to-action-button-2:active {
+  transform: scale(0.95);
+  box-shadow: 0px 6px 20px #3f8e0070;
+}
+
+.text-wrapper-button-know-more {
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.text-wrapper-work-here {
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "Raleway-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #080808;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.work-text {
+  position: absolute;
+  top: 388px;
+  left: 0;
+}
+
+.work-name-here {
+  position: absolute;
+  top: 340px;
+  left: 0;
+}
+
+.text-wrapper-work-text {
+  position: relative;
+  width: 421px;
+  margin-top: 10px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.solving-user-wrapper {
+  position: absolute;
+  top: 50px;
+  left: 270px;
+}
+
+.p {
+  width: 600px;
+  text-align: center;
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: 24px;
+}
+
+.text-wrapper-recent-work {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Raleway-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #080808;
+  font-size: 34px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* Конец второй части с recent works */ 
+
+/* Начало третей части с get in touch */
+
+.get-in-touch {
+  position: absolute;
+  width: 1280px;
+  height: 672px;
+  top: 1600px;
+  left: 0;
+  background-color: #080808;
+}
+
+.heading-get-in-touch {
+  position: absolute;
+  top: 81px;
+  left: 537px;
+}
+
+.text-wrapper-get-in-touch-1 {
+  font-family: "Raleway-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 34px;
+  text-align: center;
+  letter-spacing: 0;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1.00px;
+  line-height: normal;
+}
+
+.subtext-get-in-touch {
+  position: absolute;
+  top: 131px;
+  left: 355px;
+}
+
+.contact-info {
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.placeholder-wrapper {
+  display: flex;
+  width: 350px;
+  height: 40px;
+  align-items: center;
+  gap: 12px;
+  padding: 0px 12px;
+  position: relative;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #d7d7d7;
+}
+
+.placeholder {
+  position: relative;
+  flex: 1;
+  height: 36px;
+  width: 350px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #757575;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 21px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s
+}
+
+.placeholder-2 {
+  position: relative;
+  flex: 1;
+  height: 120px;
+  width: 350px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #757575;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 21px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  padding-bottom: 80px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s
+}
+
+
+.placeholder:focus {
+  border-color: #3e8e00;
+  outline: none;
+}
+
+.mobile {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  top: 300px;
+  left: 465px;
+}
+
+.email {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  top: 219px;
+  left: 465px;
+}
+
+.placeholder-wrapper-2 {
+  display: flex;
+  width: 350px;
+  height: 120px;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 12px;
+  position: relative;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #d7d7d7;
+}
+
+.message {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  top: 381px;
+  left: 465px;
+}
+
+.contact-button {
+  width: 367px;
+  padding: 16px 24px;
+  position: absolute;
+  top: 542px;
+  left: 465px;
+  background-color: #3e8e00;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #61b91b;
+  box-shadow: 0px 8px 30px #3f8e004c;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contact-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+  box-shadow: 0px 12px 40px #3f8e0090;
+}
+
+.contact-button:active {
+  transform: scale(0.95);
+  box-shadow: 0px 6px 20px #3f8e0070;
+}
+
+.error {
+  display: block;
+  color: #d9534f;
+  font-size: 12px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.notification {
+  display: inline-block;
+}
+
+/* Конец третей части с get in touch */
+
+/* Начало третей части с made with love */
+
+.made-with-love {
+  position: absolute;
+  width: 1280px;
+  height: 70px;
+  top: 2250px;
+  left: 0;
+  background-color: #1a1a1a;
+}
+
+.made-with-love-text {
+  position: relative;
+  top: 26px;
+  left: 615px;
+}
+
+/*Конец третей части с made with love */
